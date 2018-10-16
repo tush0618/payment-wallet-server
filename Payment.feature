@@ -11,7 +11,7 @@ Scenario 2: Customer is not able to fetch wallet balance using invalid mobile nu
   Then customer is shown an error response Invalid Number
   
 Scenario 3: Customer is not able to fetch wallet balance when not passing any mobile number i.e. null
-  Given the customer passes a blank mobile number as "" or "null
+  Given the customer passes a blank mobile number as "" or "null"
   When the customer request to show balance  
   Then customer is shown an error response Invalid Number
   
